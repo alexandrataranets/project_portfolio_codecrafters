@@ -1,3 +1,5 @@
+/* ======================== MOBILE HEADER STYLES ========================= */
+
 .header {
   position: absolute;
   top: 32px;
@@ -59,15 +61,12 @@
   flex-grow: 0;
 }
 
-
-
-/* ========================== MOBILE HEADER STYLES ========================= */
+/* ======================== MOBILE MENU STYLES ========================= */
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .menu-btn-desctab {
     display: none;
   }
- 
 
   .menu-btn-close {
     fill: rgb(250, 250, 250);
@@ -88,11 +87,9 @@
     transform: scale(1.07);
 }
 
-
   .header-menu-item:active {
     transform: scale(1.14);
 }
-
 
   .header-menu-list-mobile {
     width: 67px;
@@ -178,24 +175,16 @@
     @media screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx),
       screen and (min-device-pixel-ration: 2) {
-      .header-menu-container.is-open {
-        background-image: url("../img/mobile/hero/modal-back@2x.webp");
-      }
+    .header-menu-container.is-open {
+      background-image: url("../img/mobile/hero/modal-back@2x.webp");
     }
+  }
     
     .header-menu {
       display: flex;
       flex-direction: column;
     }
-    
-
   }
-
-/* ======================== MOBILE MENU STYLES ========================= */
-
-
-
-
 
 /* ======================== TABLET HEADER STYLES ========================= */
 
@@ -349,7 +338,6 @@
     color: #ED3B44;
     transform: scale(1.07);
 }
-
 
   .header-menu-item:active {
     transform: scale(1.14);
